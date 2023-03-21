@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    min-height: 80%;
+    min-width: 80%;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 50px;
+        margin: 25px;
+
+        &:hover{
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+        }
+    }
+}
+
+h5{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 100%;
+}
