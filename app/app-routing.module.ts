@@ -13,6 +13,7 @@ const routes: Routes = [
     {path: 'projects', component: ProjectsComponent},
     {path: 'contacts', component: ContactsComponent},
     {path: '', redirectTo: 'home', pathMatch: 'full'},
+    {path: 'index', redirectTo:'home', pathMatch:'full'}
 
   ]},
 
