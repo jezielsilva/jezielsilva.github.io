@@ -1,17 +1,11 @@
 
-html {
-  min-height: 70%;
-  min-width: 70%;
-  display: block;
-}
-
 .fullstack{
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 350px;
+    max-height: 350px;
     width: auto;
     height: auto;
     margin: auto;
-    display: block;
+    display: flex;
     align-items: center;
 }
 
@@ -23,6 +17,7 @@ html {
   display: flex;
   align-items: center !important;
   justify-content: center !important;
+  margin-top: 50px !important;
 
   img{
     max-width: 60px;
@@ -43,6 +38,7 @@ html {
   margin-right: auto;
   align-items: center !important;
   display: flex;
+  margin-top: 30px;
 }
 
 .modalAbout {
